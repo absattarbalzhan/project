@@ -1,0 +1,20 @@
+<app-user-profile></app-user-profile>
+<div class="specilist-form">
+  <div class="inp">
+    <label>Name: <br>
+      <input type="text" formControl="specName">
+    </label>
+  </div>
+  <div class="inp">
+    <label>Age: <br>
+      <input type="number" formControl="age">
+    </label>
+  </div>
+  <div class="inp">
+    <button (click)="newSpecialist()">Add specialist</button>
+  </div>
+</div>
+<hr>
+<div>
+  <app-top-specialists></app-top-specialists>
+</div>
