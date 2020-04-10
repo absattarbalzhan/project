@@ -21,9 +21,9 @@ export const SPECIALISTS: Specialist[] = [
     city: 'Almaty',
     likes: 0,
     comments: [],
-    front_image: 'uchpuchmak.png',
-    images: ['uchpuchmak1.png', 'Uchpuchmak2.png'],
-    category: {id: 11, name: 'Beef'}
+    front_image: '',
+    images: [''],
+    category: {id: 11, name: 'Baby sitter'}
   },
   {
     id: 23,
@@ -33,8 +33,8 @@ export const SPECIALISTS: Specialist[] = [
     city: 'Almaty',
     likes: 0,
     comments: [],
-    front_image: 'beshbarmak.png',
-    images: ['beshbarmak1.png', 'beshbarmak2.png'],
-    category: {id: 4, name: 'Dinner'}
+    front_image: '',
+    images: ['', ''],
+    category: {id: 4, name: 'Plumber'}
   }
 ]

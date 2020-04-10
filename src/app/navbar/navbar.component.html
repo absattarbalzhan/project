@@ -4,11 +4,21 @@
       <img src="" alt="">
       <a class="nav-title" href="/main">Specialist finder</a>
     </div>
-    <div class="search-bar input-group">
-      <label>
-        <input type="text" placeholder="Search"/>
-      </label>
+<!--    <div class="search-bar input-group">-->
+<!--      <label>-->
+<!--        <input type="text" placeholder="Search"/>-->
+<!--      </label>-->
+<!--    </div>-->
+
+    <div>
+      <input type="text" placeholder ="Write something" #descr>
+      <button (click)="search(descr.value)">
+        Search
+      </button>
     </div>
+    <a routerLink="/specialist/{{neededSpecialist.id}}/details">{{neededSpecialist.title}}</a>
+
+
     <div class="btn-group">
       <div>
         <button [routerLink]="['/login']" class="unit" type="button">Login</button>

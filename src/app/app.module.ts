@@ -16,6 +16,7 @@ import { SavedComponent } from './saved/saved.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     SpecialistDetailComponent,
     SavedComponent,
     SignUpComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
